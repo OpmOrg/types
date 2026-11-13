@@ -65,7 +65,7 @@ type Image struct {
 // It holds the container's internal name, associated image
 // and current execution status.
 type Container struct {
-	name   string // Internal name used to identify the container.
-	img    Image  // Image associated with this container.
-	status Status // Current status of the container.
+	Name   string // Internal name used to identify the container.
+	Img    Image  // Image associated with this container.
+	Status Status // Current status of the container.
 }
